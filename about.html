@@ -41,15 +41,10 @@
 						</ul>
 					</nav>
 
-				<!-- Main -->
-					<div id="main">
-						<div class="inner">
-							<h1>Generic Page</h1>
-							<span class="image main"><img src="images/pic13.jpg" alt="" /></span>
-							<p>tefdesgdbfhds dhfkhdbfkd</p>
-						</div>
-					</div>
 
+
+
+        
 				<!-- Footer -->
 					<footer id="footer">
 						<div class="inner">
@@ -99,41 +94,5 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			<script>
-			function getParametro(nome) {
-				const urlParams = new URLSearchParams(window.location.search);
-				return urlParams.get(nome);
-			}
-
-			const conteudos = {
-				magna: {
-					titulo: "Magna",
-					imagem: "images/pic13.jpg",
-					texto: "<p>Conteúdo sobre Magna. Texto personalizado para Magna.</p>"
-				},
-				lorem: {
-					titulo: "Lorem",
-					imagem: "images/pic13.jpg",
-					texto: "<p>Conteúdo sobre Lorem. Texto personalizado para Lorem.</p>"
-				},
-				feugiat: {
-					titulo: "Feugiat",
-					imagem: "images/pic13.jpg",
-					texto: "<p>Conteúdo sobre Feugiat. Texto personalizado para Feugiat.</p>"
-				},
-				// Adicione os outros conteúdos conforme necessário
-			};
-
-			const id = getParametro('id');
-			if (id && conteudos[id]) {
-				document.querySelector('#main .inner').innerHTML = `
-					<h1>${conteudos[id].titulo}</h1>
-					<span class="image main"><img src="${conteudos[id].imagem}" alt="" /></span>
-					${conteudos[id].texto}
-				`;
-			}
-			</script>
-		<!--Antes do Body-->
-
 	</body>
 </html>
