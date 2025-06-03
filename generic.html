@@ -6,6 +6,16 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			.image.main{
+						display: flex;
+    					justify-content: center;
+    					align-items: center;
+			}
+			.image.main img {
+    						width: 70%; 
+    						height: auto;}
+		</style>
 	</head>
 	<body class="is-preload">
 		<!-- Wrapper -->
@@ -45,7 +55,7 @@
 					<div id="main">
 						<div class="inner">
 							<h1>Generic Page</h1>
-							<span class="image main"><img src="images/pic13.jpg" alt="" /></span>
+							<span class="image main"><img src="images/logo.ico" alt=""/></span>
 							<p>tefdesgdbfhds dhfkhdbfkd</p>
 						</div>
 					</div>
@@ -106,22 +116,66 @@
 			}
 
 			const conteudos = {
-				magna: {
-					titulo: "Magna",
-					imagem: "images/pic13.jpg",
-					texto: "<p>Conteúdo sobre Magna. Texto personalizado para Magna.</p>"
+				ch: { //China
+					titulo: "China: Conectando Você a Milênios de História e um Futuro Vibrante",
+					imagem: "images/china.jpg",
+					texto: "<p>Sua empresa o convida a voar para a China, um país de proporções épicas que oferece uma tapeçaria rica de história milenar e um futuro em constante evolução. Nossos voos são projetados para levar você com segurança e conforto a este destino fascinante, onde a grandiosidade de suas paisagens se encontra com a efervescência de suas megacidades.<br>Em Pequim, maravilhe-se com a grandiosidade da Grande Muralha da China, um Patrimônio Mundial da UNESCO e uma das maiores maravilhas arquitetônicas do mundo, ou explore a majestosa Cidade Proibida. Em Xangai, você experimentará o contraste entre templos antigos e arranha-céus futuristas no Bund. Você sabia que a China é o país mais populoso do mundo e possui uma das civilizações contínuas mais antigas? E uma curiosidade: a China inventou o papel, a pólvora, a bússola e a impressão! Com a sua empresa, você está a um passo de uma imersão cultural que transcende o tempo.</p>"
 				},
-				lorem: {
-					titulo: "Lorem",
-					imagem: "images/pic13.jpg",
-					texto: "<p>Conteúdo sobre Lorem. Texto personalizado para Lorem.</p>"
+				dn: { //Dinamarca
+					titulo: "Dinamarca: Desembarque na Terra dos Contos de Fadas e do Design Escandinavo",
+					imagem: "images/dinamarca.jpg",
+					texto: '<p>Com sua empresa, voar para a Dinamarca é pousar em um país que combina a beleza dos contos de fadas com a funcionalidade do design escandinavo. Nossos voos oferecem a você a tranquilidade e a eficiência que se alinham com a cultura dinamarquesa de bem-estar e organização. Prepare-se para explorar cidades charmosas, paisagens costeiras e uma atmosfera de "hygge", o famoso conceito dinamarquês de aconchego.<br>Em Copenhague, a capital, visite a famosa estátua da Pequena Sereia, explore o colorido porto de Nyhavn ou divirta-se no parque de diversões Tivoli Gardens. Você sabia que a Dinamarca é consistentemente classificada como um dos países mais felizes do mundo? E uma curiosidade: o país tem mais de 400 ilhas habitadas! Seja para mergulhar na história dos Vikings ou para apreciar o design moderno, sua viagem para a Dinamarca conosco será uma experiência feliz e sem preocupações.</p>'
 				},
-				feugiat: {
+				est: { //Estônia
 					titulo: "Feugiat",
 					imagem: "images/pic13.jpg",
 					texto: "<p>Conteúdo sobre Feugiat. Texto personalizado para Feugiat.</p>"
 				},
-				// Adicione os outros conteúdos conforme necessário
+				fr: { //França
+					titulo: "Lorem",
+					imagem: "images/pic13.jpg",
+					texto: "<p>Conteúdo sobre Lorem. Texto personalizado para Lorem.</p>"
+				},
+				ind: { //Indonésia
+					titulo: "Lorem",
+					imagem: "images/pic13.jpg",
+					texto: "<p>Conteúdo sobre Lorem. Texto personalizado para Lorem.</p>"
+				},
+				ir: { //Irlanda
+					titulo: "Lorem",
+					imagem: "images/pic13.jpg",
+					texto: "<p>Conteúdo sobre Lorem. Texto personalizado para Lorem.</p>"
+				},
+				let: { //Letônia
+					titulo: "Lorem",
+					imagem: "images/pic13.jpg",
+					texto: "<p>Conteúdo sobre Lorem. Texto personalizado para Lorem.</p>"
+				},
+				tch: { //Tcheca
+					titulo: "Lorem",
+					imagem: "images/pic13.jpg",
+					texto: "<p>Conteúdo sobre Lorem. Texto personalizado para Lorem.</p>"
+				},
+				rss: { //Russia
+					titulo: "Lorem",
+					imagem: "images/pic13.jpg",
+					texto: "<p>Conteúdo sobre Lorem. Texto personalizado para Lorem.</p>"
+				},
+				seul: { //Coreia do Sul
+					titulo: "Lorem",
+					imagem: "images/pic13.jpg",
+					texto: "<p>Conteúdo sobre Lorem. Texto personalizado para Lorem.</p>"
+				},
+				sc: { //Suiça
+					titulo: "Lorem",
+					imagem: "images/pic13.jpg",
+					texto: "<p>Conteúdo sobre Lorem. Texto personalizado para Lorem.</p>"
+				},
+				jp: { //Japão
+					titulo: "Lorem",
+					imagem: "images/pic13.jpg",
+					texto: "<p>Conteúdo sobre Lorem. Texto personalizado para Lorem.</p>"
+				}
 			};
 
 			const id = getParametro('id');
